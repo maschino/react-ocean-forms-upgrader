@@ -1,0 +1,31 @@
+{
+  "name": "react-ocean-forms-upgrader",
+  "version": "1.0.2",
+  "description": "",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "bin": "lib/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc -p ."
+  },
+  "files": [
+    "src/**",
+    "package.json",
+    "tsconfig.json",
+    "yarn.lock",
+    "lib/**"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
